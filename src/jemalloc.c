@@ -102,7 +102,6 @@ void je_set_zero_filling(bool val) {
 }
 
 unsigned	opt_narenas = 0;
-static fxp_t		opt_narenas_ratio = FXP_INIT_INT(4);
 
 /* Protects arenas initialization. */
 static malloc_mutex_t arenas_lock;
